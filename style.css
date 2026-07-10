@@ -106,8 +106,6 @@ border-radius: 12px;
     padding-left: 24px;
 }
 .price-heading{
-    /* text-align: center;
-    margin-bottom: 56px; */
     font-size: 56px;
     font-weight: 700;
 }
@@ -127,6 +125,9 @@ border-radius: 12px;
     border-radius: 20px;
     border: 2px solid #E5E7EB;
 }
+.price-top ul li{
+    margin-bottom: 10px;
+}
 .price-top div ul li::marker{
     color:#2563EB;
 }
@@ -136,5 +137,57 @@ border-radius: 12px;
 .price-top div p{
     font-weight: 700;
 }
+.button-1{
+    background-color: #ffffff;
+    font-weight: 700;
+    color: #2563EB;
+    width: 100%;
+    height: 44px;
+    padding: 12px ;
+    border: 2px solid #2563EB;
+    border-radius: 10px;
+}
+.button-2{
+   background-color: #2563EB;
+    font-weight: 700;
+    color: #ffffff;
+    width: 100%;
+    height: 44px;
+    padding: 12px ;
+    border-radius: 10px;
+    border: none;
+}
+.price-2{
+    background-color: #0D1B2A;
+    color: #000;
+}
+.price-2-para1{
+    color: #93C5FD;
+    padding-bottom: 8px;
+    padding-top: 12px;
+}
+.price-2 h1{
+    color: #fff;
+}
+.price-2 ul li{
+    color: #b4b0b0;
 
-
+}
+.price-2-para2{
+    color: #848282;
+    padding-top: 10px;
+    padding-bottom: 12px;
+}
+.button-3{
+    font-weight: 700;
+    color: #0D1B2A;
+    width: 100%;
+    height: 44px;
+    padding: 12px ;
+    border-radius: 10px;
+    border: 2px solid #0D1B2A;
+}
+.price-3{
+ background-color: #E5E7EB;
+    color: #333333;
+}
