@@ -33,7 +33,7 @@ nav img {
 }
 
 .common-button {
-    background-color: #1D4ED8;
+    background-color: #3e5cb0;
     font-weight: 700;
     color: white;
     width: 192px;
@@ -71,123 +71,225 @@ header {
     margin-top: 250px;
 }
 
-.speaker{
+.speaker {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
     gap: 32px;
 }
-.speaker img{
+
+.speaker img {
     width: 100%;
     border-top-left-radius: 12px;
     border-top-right-radius: 12px;
 
 }
-.color1{
+
+.color1 {
     color: #2563EB;
     padding-bottom: 8px;
     padding-top: 10px;
 }
-.color2{
+
+.color2 {
     color: #575757;
     padding-top: 10px;
     padding-bottom: 14px;
 }
-.speaker-top p{
+
+.speaker-top p {
     text-align: center;
     margin-bottom: 56px;
     font-size: 56px;
     font-weight: 700;
 }
-.container{
-border: 2px solid #E5E7EB;
-border-radius: 12px;
+
+.container {
+    border: 2px solid #E5E7EB;
+    border-radius: 12px;
 }
-.pad-left{
+
+.pad-left {
     padding-left: 24px;
 }
-.price-heading{
+
+.price-heading {
     font-size: 56px;
     font-weight: 700;
 }
-.price{
+
+.price {
     text-align: center;
     margin-bottom: 56px;
 }
-.price-top{
+
+.price-top {
     display: grid;
     grid-template-columns: repeat(3, 1fr);
     gap: 30px;
     padding: 0 55px 55px 80px;
 
 }
-.price-top div{
+
+.price-top div {
     padding: 25px 25px;
     border-radius: 20px;
     border: 2px solid #E5E7EB;
 }
-.price-top ul li{
+
+.price-top ul li {
     margin-bottom: 10px;
 }
-.price-top div ul li::marker{
-    color:#2563EB;
+
+.price-top div ul li::marker {
+    color: #2563EB;
 }
-.price-top div ul{
+
+.price-top div ul {
     padding: 12px;
 }
-.price-top div p{
+
+.price-top div p {
     font-weight: 700;
 }
-.button-1{
+
+.button-1 {
     background-color: #ffffff;
     font-weight: 700;
     color: #2563EB;
     width: 100%;
     height: 44px;
-    padding: 12px ;
+    padding: 12px;
     border: 2px solid #2563EB;
     border-radius: 10px;
 }
-.button-2{
-   background-color: #2563EB;
+
+.button-2 {
+    background-color: #2563EB;
     font-weight: 700;
     color: #ffffff;
     width: 100%;
     height: 44px;
-    padding: 12px ;
+    padding: 12px;
     border-radius: 10px;
     border: none;
 }
-.price-2{
+
+.price-2 {
     background-color: #0D1B2A;
     color: #000;
 }
-.price-2-para1{
+
+.price-2-para1 {
     color: #93C5FD;
     padding-bottom: 8px;
     padding-top: 12px;
 }
-.price-2 h1{
+
+.price-2 h1 {
     color: #fff;
 }
-.price-2 ul li{
+
+.price-2 ul li {
     color: #b4b0b0;
 
 }
-.price-2-para2{
+
+.price-2-para2 {
     color: #848282;
     padding-top: 10px;
     padding-bottom: 12px;
 }
-.button-3{
+
+.button-3 {
     font-weight: 700;
     color: #0D1B2A;
     width: 100%;
     height: 44px;
-    padding: 12px ;
+    padding: 12px;
     border-radius: 10px;
     border: 2px solid #0D1B2A;
 }
-.price-3{
- background-color: #E5E7EB;
+
+.price-3 {
+    background-color: #E5E7EB;
     color: #333333;
+}
+
+/* ai extra section */
+
+.job-container {
+    max-width: 1000px;
+    margin: 0 auto;
+}
+
+.job-header {
+    text-align: center;
+    margin-bottom: 40px;
+}
+
+.job-header h2 {
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.job-header p {
+    font-size: 16px;
+    color: #575757;
+}
+
+.job-name {
+    background-color: #ffffff;
+    border: 2px solid #e2e8f0;
+    border-radius: 8px;
+    padding: 20px;
+    margin-bottom: 20px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.job-name:hover {
+    background-color: #0D1B2A;
+    color: #ffffff;
+    border-color: #3b82f6;
+}
+
+.job-name:hover h3 {
+    color: rgb(255, 255, 255);
+}
+
+.job-name:hover .company-name {
+    color: rgb(193, 205, 210);
+}
+
+.job-name:hover .job-location {
+    color: rgb(193, 205, 210);
+}
+
+.job-details h3 {
+    font-size: 20px;
+    color: #1e293b;
+    margin-bottom: 5px;
+}
+
+.company-name {
+    font-size: 15px;
+    color: #2563eb;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.job-type {
+    background-color: #eff6ff;
+    color: #1d4ed8;
+    padding: 4px 10px;
+    font-size: 12px;
+    border-radius: 4px;
+    font-weight: bold;
+    margin-right: 10px;
+}
+
+.job-location {
+    font-size: 13px;
+    color: #64748b;
 }
