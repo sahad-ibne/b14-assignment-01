@@ -34,9 +34,11 @@ This project mainly assigned by Programming Hero. It includes structured section
 * **Font Awesome CDN:** I used this for vector icons (`https://kit.fontawesome.com/...`)
 
 ---
+## Live Link
+[![Live Demo](https://img.shields.io/badge/Live-Demo-brightgreen?style=for-the-badge&logo=googlechrome)](https://sahad-ibne.github.io/b14-assignment-01/)
+
 
 ## 💻 Local Machine Setup
-
 1. **Clone the repository:**
 ```bash
    git clone [https://github.com/sahad-ibne/b14-assignment-01.git](https://github.com/sahad-ibne/b14-assignment-01.git)
