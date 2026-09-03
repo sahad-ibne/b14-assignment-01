@@ -38,5 +38,5 @@ This project mainly assigned by Programming Hero. It includes structured section
 ## 💻 Local Machine Setup
 
 1. **Clone the repository:**
-   ```bash
-   git clone [https://github.com/sahad-ibne/devconf-2026.git](https://github.com/sahad-ibne/devconf-2026.git)
+```bash
+   git clone [https://github.com/sahad-ibne/b14-assignment-01.git](https://github.com/sahad-ibne/b14-assignment-01.git)
