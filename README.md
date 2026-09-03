@@ -5,7 +5,7 @@ DevConf 2026 is a responsive developer conference landing page designed to showc
 ---
 
 ## 📌 Project Overview
-This project provides a clean and modern landing page layout for a developer conference. It includes structured sections for speaker announcements, ticket purchasing plans, on-site career fair listings, and social links.
+This project mainly assigned by Programming Hero. It includes structured sections for speaker announcements, ticket purchasing plans, on-site career fair listings, and social links.
 
 ---
 
@@ -31,7 +31,7 @@ This project provides a clean and modern landing page layout for a developer con
 ---
 
 ## 📦 Dependencies
-* **Font Awesome CDN:** Hosted script for rendering vector icons (`https://kit.fontawesome.com/...`)
+* **Font Awesome CDN:** I used this for vector icons (`https://kit.fontawesome.com/...`)
 
 ---
 
@@ -39,4 +39,4 @@ This project provides a clean and modern landing page layout for a developer con
 
 1. **Clone the repository:**
    ```bash
-   git clone [https://github.com/sahad-iiuc/devconf-2026.git](https://github.com/sahad-iiuc/devconf-2026.git)
+   git clone [https://github.com/sahad-ibne/devconf-2026.git](https://github.com/sahad-ibne/devconf-2026.git)
